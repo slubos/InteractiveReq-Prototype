@@ -1,0 +1,8 @@
+llama-index
+llama-index-readers-json
+llama-index-embeddings-huggingface
+datasets
+replicate
+llama-index-llms-replicate
+llama-index-utils-workflow
+pyyaml

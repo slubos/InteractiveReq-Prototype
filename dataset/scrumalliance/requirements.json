@@ -1,0 +1,543 @@
+{
+  "epics": [
+    {
+      "title": "User Profiles and Personalization",
+      "description": "This epic focuses on enabling site members to create and manage their profiles, allowing them to showcase their certifications, experiences, and personal details. It is essential for fostering community engagement and providing a platform for users to connect based on shared interests and qualifications.",
+      "user_stories": [
+        {
+          "title": "Describe Myself on My Page",
+          "story": "As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Apply for Certified Scrum Practitioner",
+          "story": "As a site member, I want to fill out an application to become a Certified Scrum Practitioner, so that I can earn that designation.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Details to Practitioner Profile",
+          "story": "As a Practitioner, I want to include additional details about me in my profile page, so that I can showcase my experience.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Apply for Certified Scrum Trainer",
+          "story": "As a site member, I want to fill out an application to become a Certified Scrum Trainer, so that I can teach CSM and CSPO courses and certify others.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Details to Trainer Profile",
+          "story": "As a Trainer, I want to include additional details in my profile page about me, so that others can learn about me and decide if I am the right trainer for them.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Show Certification Status in Articles",
+          "story": "As a Practitioner, I want to write an article for the site with a small graphic shown with the article showing my CSP or CST status, so that others know my certifications when reading.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "List Upcoming Classes",
+          "story": "As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Other Members' Profiles",
+          "story": "As a site member, I want to view the profiles of other members, so that I can find others I might want to connect with.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Search for Profiles",
+          "story": "As a site member, I want to search for profiles based on a few fields, so that I can find others I might want to connect with.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Mark Profile as Private",
+          "story": "As a site member, I want to mark my profile as private in which case only my name will appear, so that no one can learn things about me I don't want shared.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Mark Email Address as Private",
+          "story": "As a site member, I want to mark my email address as private even if the rest of my profile is not, so that no one can contact me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Send Email to Other Members",
+          "story": "As a site member, I want to send an email to any member via a form, so that we can connect.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Application Management for Certifications",
+      "description": "This epic covers the management of applications for becoming a Certified Scrum Practitioner or Trainer. It ensures that only qualified individuals are granted these important designations, thereby maintaining the integrity of the certification process.",
+      "user_stories": [
+        {
+          "title": "Review Practitioner Applications",
+          "story": "As a site administrator, I want to read practicing and training applications and approve or reject them, so that only applicants who qualify can become CSPs or CSTs.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit Member Profiles",
+          "story": "As a site administrator, I want to edit any site member profile, so that I can correct problems for members.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "News and Content Management",
+      "description": "This epic involves the management and publication of news articles and other content on the site. It is vital for keeping the community informed about the latest happenings in the agile world and ensuring easy access to both current and past news.",
+      "user_stories": [
+        {
+          "title": "Read Current News",
+          "story": "As a site visitor, I want to read current news on the home page, so that I stay current on agile news.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Access Old News",
+          "story": "As a site visitor, I want to access old news that is no longer on the home page, so that I can access things I remember from the past or that others mention to me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Email News Items to Editor",
+          "story": "As a site visitor, I want to email news items to the editor, so that they can be considered for publication.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Publication Dates for News",
+          "story": "As a site editor, I want to set the following dates on a news item: Start Publishing Date, Old News Date, Stop Publishing Date, so that articles are published on and through appropriate dates.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Subscribe to News RSS Feed",
+          "story": "As a site member, I want to subscribe to an RSS feed of news, so that I remain sufficiently and easily informed.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Assign Priority to News Items",
+          "story": "As a site editor, I want to assign priority numbers to news items, so that I can indicate which articles I want featured most prominently on the site.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Course and Event Management",
+      "description": "This epic deals with the management and organization of various certification and other courses and events. It is essential for ensuring that users have access to relevant learning opportunities and that trainers can effectively manage their offerings.",
+      "user_stories": [
+        {
+          "title": "View Upcoming Certification Courses",
+          "story": "As a site visitor, I want to see a list of all upcoming Certification Courses and can page through them if there are a lot, so that I can choose the best course for me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Upcoming Other Courses",
+          "story": "As a site visitor, I want to see a list of all upcoming Other Courses and can page through them if necessary, so that I can choose the best course for me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Upcoming Events",
+          "story": "As a site visitor, I want to see a list of all upcoming Events, so that I can decide if I want to attend any.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Create New Course or Event",
+          "story": "As a trainer, I want to create a new course or event, so that site visitors can see it.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Create Other Course or Event with Listing Fee",
+          "story": "As a trainer, I want to create an Other Course or Event I am charged a listing fee for that activity, so that I don't list events I don't really intend to hold.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Create Other Course or Event without Listing Fee",
+          "story": "As a site administrator, I want to create an Other Course or Event that is not charged a listing fee, so that the Scrum Alliance doesn't charge itself for Scrum Gatherings that it puts on.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Listing Fee for Courses or Events",
+          "story": "As a site administrator, I want to set the listing fee per Other Course or Event, so that we have flexibility on what to charge in the future.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Update Existing Course or Event",
+          "story": "As a trainer, I want to update one of my existing courses or events, so that it reflects accurate information.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Delete Course or Event",
+          "story": "As a trainer, I want to delete one of my courses or events, so that it's no longer listed if I cancel for some reason.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Copy Course or Event",
+          "story": "As a trainer, I want to copy one of my courses or events, so that I can create a new one.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin Delete Course or Event",
+          "story": "As a site admin, I want to delete any course or event, so that I can remove things that will no longer occur.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin Update Course or Event",
+          "story": "As a site editor, I want to update any course or event, so that I can fix things the original author hasn't.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Turn Course into Event",
+          "story": "As a trainer, I want to turn a course into an event or an event into a course, so that I can correctly classify anything that was entered incorrectly.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Search Functionality and User Engagement",
+      "description": "This epic focuses on providing effective search functionalities and ensuring that users can easily access the information they need. It is crucial for enhancing user experience and engagement on the site.",
+      "user_stories": [
+        {
+          "title": "Advanced Search Option",
+          "story": "As a site visitor, I want to have an advanced search option that lets me fill in a form of search criteria, so that I can quickly find what I am looking for.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Course with Trainer's Profile Link",
+          "story": "As a site visitor, I want to view a course I can click on the trainer's name and be taken to the trainer's profile, so that I can read more about a trainer before registering for a course.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Subscribe to Upcoming Courses and Events RSS Feed",
+          "story": "As a site visitor, I want to subscribe to an RSS feed of upcoming courses and events, so that I am up to date without having to visit the site.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Read FAQs",
+          "story": "As a site visitor, I want to read FAQs, so that I can get quick answers.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Maintain FAQ Section",
+          "story": "As a site editor, I want to maintain a FAQ section, so that support gets fewer easily answered questions.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Full-text Search of FAQs",
+          "story": "As a site visitor, I want to do a full-text search of the FAQs, so that I can find an answer quickly.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Training Materials and Resources",
+      "description": "This epic addresses the availability and accessibility of training materials and resources for both members and visitors. It ensures that users can access valuable content to enhance their understanding of Scrum.",
+      "user_stories": [
+        {
+          "title": "Download Latest Training Materials",
+          "story": "As a site member, I want to download the latest training material and methodology PDFs, so that I have them.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Download Scrum Presentations and PDFs",
+          "story": "As a visitor, I want to download presentations, PDFs, etc. on Scrum, so that I can learn from them or use them.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Job Listings and Recruitment",
+      "description": "This epic encompasses job listings and recruitment features on the site, facilitating the posting and application processes for job seekers and recruiters alike.",
+      "user_stories": [
+        {
+          "title": "Scroll through Job Listings",
+          "story": "As a site member, I want to scroll through a listing of jobs, so that I can see if there any I am interested in.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Post Help Wanted Ad",
+          "story": "As a recruiter, I want to post a help wanted ad, so that I can attract candidates.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin Approve Job Ads",
+          "story": "As a site admin, I want to approve each help wanted ad before it gets to the site, so that we're sure of the quality of jobs being listed.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin Email Job Submissions",
+          "story": "As a site admin, I want to be emailed whenever a job is submitted, so that I am aware of it and can decide if I want to post it.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Subscribe to Jobs RSS Feed",
+          "story": "As a site member, I want to subscribe to an RSS feed of jobs available, so that I can read them without visiting the site.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit and Delete Help Wanted Ads",
+          "story": "As a site admin, I want to edit and delete help wanted ads, so that I can correct small problems or make sure each ad complies with site guidelines.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Stop Publishing Jobs After 30 Days",
+          "story": "As a site admin, I want to stop publishing jobs on the site 30 days after being posted, so that jobs that may have been filled aren't still listed when the hiring party forgets to come back and delete the ad.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Extend Job Ad Duration",
+          "story": "As a recruiter, I want to be able to extend an ad for another 30 days by visiting the site and updating the posting, so that my ad remains active.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Email Reminder for Job Ad Expiration",
+          "story": "As an advertiser, I want to be emailed a reminder seven days before an ad is about to expire, so that I can go extend the ad.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Content and Article Management",
+      "description": "This epic focuses on the creation and management of articles on the site, ensuring that relevant content is available to users and that articles are effectively categorized and displayed.",
+      "user_stories": [
+        {
+          "title": "Read New Article Weekly",
+          "story": "As a site visitor, I want to read a new article on the front page about once a week, so that I am up on all the latest happenings.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Include Teaser with Each Article",
+          "story": "As the site editor, I want to include a teaser with each article, so that site visitors can decide if they want to read the rest.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Read Entire Article",
+          "story": "As a site member who has read a teaser on the front page, I want to read the entire article so that I can finish articles that appeal to me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Article to the Site",
+          "story": "As a site editor, I want to add an article to the site, so that the site has plenty of content.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Article Publishing Dates",
+          "story": "As a site editor, I want to set start publishing dates, old article dates, and stop publishing dates for articles, so that articles appear only during appropriate periods.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Designate Article Visibility",
+          "story": "As a site editor, I want to be able to indicate whether an article is publicly available or for members only, so that visitors are incentivized to become members.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Full-text Search of Articles",
+          "story": "As a site visitor, I want to do a full-text search of article body, title, and author name, so that I can find what I want.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Subscribe to Articles RSS Feed",
+          "story": "As a site visitor, I want to subscribe to an RSS feed of articles, so that I can read them without visiting the site.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Post Comments on Articles",
+          "story": "As a site visitor, I want to post comments about articles, so that others can read them.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Home Page for Special Announcements",
+          "story": "As a site editor, I want to have a prominent area on the home page where I can put special announcements not necessarily news or articles, so that I can give them additional exposure.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Flexibility in Content Placement",
+          "story": "As a site editor, I want to have some flexibility as to where things appear, so that I can accommodate different types of content.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "User Ratings and Feedback",
+      "description": "This epic involves the collection and display of user ratings and feedback related to trainers and their courses. It is essential for maintaining quality and transparency within the training offerings.",
+      "user_stories": [
+        {
+          "title": "Ensure Unique Survey Responses",
+          "story": "As a trainer, I want to be assured that no one can submit the same answers multiple times and skew my results, so that my ratings are accurate.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Receive Notifications on Survey Results",
+          "story": "As a trainer, I want to be notified about the results of surveys about my classes, so that I can read them.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Trainer and Class Results",
+          "story": "As a site admin, I want to see the results for each trainer and averages for the class, so that I can identify any outliers or possible problems.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Display Trainer Ratings",
+          "story": "As a site visitor, I want to see a trainer's rating, so that I choose a course from an appropriate trainer.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Show Trainer Rating on Profile",
+          "story": "As a trainer, I want to show my rating up on my profile page, so that site visitors can choose wisely.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Educational Resources on Scrum",
+      "description": "This epic focuses on providing educational content about Scrum, aimed at both new visitors and experienced members. It enhances the site's role as a resource for understanding Scrum concepts and practices.",
+      "user_stories": [
+        {
+          "title": "Learn Basics of Scrum",
+          "story": "As a site visitor, I want to view a section of the website that teaches me the basics of what Scrum is, so that I can learn that quickly.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Create What Is Scrum Section",
+          "story": "As a site editor, I want to create the content of the What Is Scrum section, so that it's there for visitors.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Lists of Certified Professionals",
+          "story": "As a site visitor, I want to view lists on the site of all Certified Scrum Masters, Practitioners, Trainers, and Certified Scrum Product Owners.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Registry for Certified Scrum Masters",
+          "story": "As a CSM, I want to have my name listed in the registry without becoming a member of the site, so that employers or others can verify my certification.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Membership and Fees Management",
+      "description": "This epic revolves around the management of user memberships, including membership fees, renewals, and special memberships for trainers and practitioners.",
+      "user_stories": [
+        {
+          "title": "Charge Fee for Practitioner Status",
+          "story": "As a CSM, I want to be charged a fee once I am approved for Practitioner status, so that my certification status can be activated.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Pay Annual Fee for CST Status",
+          "story": "As a CST, I want to pay an annual fee, so that my CST status is active.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Annual Fees for Members",
+          "story": "As a site administrator, I want to set the annual fees for members, Practitioners, and Trainers, so that fees can be set without involving a programmer.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Membership Renewal Reminder",
+          "story": "As a member, I want to receive a reminder and a link, so that I can renew my membership.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Password Reset for Members",
+          "story": "As a member, I want to have the system email me a new password or a password reminder since I have short-term memory problems.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Trainers-only Information Access",
+          "story": "As a trainer, I want to read information of relevance only to trainers, so that the Scrum Alliance can share information with me easily.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Post Trainers-only Section Content",
+          "story": "As a site editor, I want to post information in a trainers-only section, so that only trainers see it.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Certification Applications and Approvals",
+      "description": "This epic covers the application process for becoming a Certified Scrum Practitioner (CSP) or Certified Scrum Trainer (CST), including the approval and rejection processes.",
+      "user_stories": [
+        {
+          "title": "Fill Out CSP Application",
+          "story": "As a site member, I want to fill out an application to become a Certified Scrum Practitioner, so that I can earn that designation.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Include Details in Profile as Practitioner",
+          "story": "As a Practitioner, I want to include additional details about me in my profile page, so that I can showcase my experience.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Fill Out CST Application",
+          "story": "As a site member, I want to fill out an application to become a Certified Scrum Trainer, so that I can teach CSM and CSPO courses and certify others.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Include Details in Profile as Trainer",
+          "story": "As a Trainer, I want to include additional details in my profile page about me, so that others can learn about me and decide if I am the right trainer for them.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin Approve or Reject Applications",
+          "story": "As a site administrator, I want to read practicing and training applications and approve or reject them, so that only applicants who qualify can become CSPs or CSTs.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit Member Profiles as Admin",
+          "story": "As a site administrator, I want to edit any site member profile, so that I can correct problems for members.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Privacy and Security Features",
+      "description": "This epic encompasses features aimed at enhancing user privacy and security on the site, allowing users to control what information they share.",
+      "user_stories": [
+        {
+          "title": "Mark Profile as Private",
+          "story": "As a site member, I want to mark my profile as private in which case only my name will appear, so that no one can learn things about me I don't want shared.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Mark Email Address as Private",
+          "story": "As a site member, I want to mark my email address as private even if the rest of my profile is not, so that no one can contact me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Send Email via Form",
+          "story": "As a site member, I want to send an email to any member via a form, so that we can connect.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Profile and Networking Features",
+      "description": "This epic focuses on the profile management and networking capabilities of the site, enhancing how members interact and showcase their qualifications.",
+      "user_stories": [
+        {
+          "title": "Describe Myself on My Page",
+          "story": "As a site member, I want to describe myself on my own page in a semi-structured way, so that others can learn about me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Other Members' Profiles",
+          "story": "As a site member, I want to view the profiles of other members, so that I can find others I might want to connect with.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Search for Profiles",
+          "story": "As a site member, I want to search for profiles based on a few fields, so that I can find others I might want to connect with.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "List Upcoming Classes in Profile",
+          "story": "As a trainer, I want to list my upcoming classes in my profile and include a link to a detailed page about each, so that prospective attendees can find my courses.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Write Article with Graphic",
+          "story": "As a Practitioner, I want to write an article for the site with a small graphic shown with the article showing my CSP or CST status, so that others know my certifications when reading.",
+          "acceptance_criteria": []
+        }
+      ]
+    }
+  ]
+}

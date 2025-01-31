@@ -1,0 +1,205 @@
+{
+  "epics": [
+    {
+      "title": "Manage User Accounts and Preferences",
+      "description": "This epic encompasses features related to user account creation, customization, and personal preferences. It aims to provide users with control over their profiles and ensure they receive relevant notifications and a personalized experience.",
+      "user_stories": [
+        {
+          "title": "Create an Account",
+          "story": "As a user, I want to be able to create an account, so that I can create my own profile.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Favorites",
+          "story": "As a user, I want to add donation centers as favorites on my profile, so that I can view them later.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Link Email to Profile",
+          "story": "As a user, I want to link my email account to my profile, so that I can get a temporary password in case I forget my own one.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Receive Notifications",
+          "story": "As a user, I want to be able to give my email ID, so that I can receive notifications for new events as they are posted.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Secure Personal Information",
+          "story": "As a user, I want to have my personal information kept securely in the database of the website, so that I will not suffer from identity theft or telephone harassment.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Receive Rewards",
+          "story": "As a user, I want to be able to receive tempting rewards, so that I have a reason to use the website.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View User Documentation",
+          "story": "As a user, I want to view user documentation for the website, so that I know how to use the web app.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Discover and Navigate Recycling Facilities",
+      "description": "This epic provides users with the ability to find and navigate recycling facilities and public recycling options. It aims to improve accessibility to recycling centers and public bins through maps and convenient location-based searches.",
+      "user_stories": [
+        {
+          "title": "Search Recycling Facilities by Zip Code",
+          "story": "As a user, I want to be able to enter my zip code and get a list of nearby recycling facilities, so that I can determine which ones I should consider.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Recycling Centers on a Map",
+          "story": "As a user, I want to view all locations of recycling centers on a map, so that I can check which routes to take to drop off waste.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Public Recycling Bins",
+          "story": "As a user, I want to be able to view a map display of the public recycling bins around my area.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Special Waste Drop-off Sites",
+          "story": "As a user, I want to be able to view a map display of the special waste drop-off sites around my area.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Safe Disposal Events",
+          "story": "As a user, I want to be able to view the safe disposal events currently being organized around my area.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Click on Address to Open Google Maps",
+          "story": "As a user, I want to click on the address, so that it takes me to a new tab with Google Maps.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Browse Environment-friendly Facilities",
+          "story": "As a user, I want to be able to browse through the list of facilities and see which ones are environment-friendly, so that I can know for sure my waste is not going to leave a negative ecological footprint.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Schedule and Optimize Recycling Visits",
+      "description": "This epic is focused on enabling users to schedule and optimize their visits to recycling centers. It aims to provide flexibility and convenience for users to match their availability with facility hours and reduce planning complexity.",
+      "user_stories": [
+        {
+          "title": "Flexible Pickup Time",
+          "story": "As a user, I want to have a flexible pick-up time, so that I can more conveniently use the website.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Choose Flexible Pickup Time",
+          "story": "As a user, I want to choose a flexible pick-up time, so that I can more conveniently use the website.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Get Recommendations Based on Weekly Schedule",
+          "story": "As a user, I want to upload my week's schedule, so that I can get recommendations for recycling centers that best fit my availability.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Select Different Types of Recyclable Waste",
+          "story": "As a user, I want to be able to select different types of recyclable waste, so that I have and get a list of facilities that accept each type and their opening hours, so that I can find an optimal route and schedule.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Administer Recycling Facility Information",
+      "description": "This epic allows admins and superusers to manage recycling facility information on the platform, ensuring users receive accurate and up-to-date information about available services.",
+      "user_stories": [
+        {
+          "title": "Add or Remove Facility Information",
+          "story": "As an admin, I want to be able to add or remove recycling facilities' information, so that users get the most recent information.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Onboard Recycling Centers",
+          "story": "As an admin, I want to onboard recycling centers on the platform, so that I can increase information accuracy.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Update Facility Information",
+          "story": "As an admin, I want to add recycling center information, so that I can keep the database up-to-date over time.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Superuser Updates Information",
+          "story": "As a superuser, I want to update the recycling center information, so that I can provide the latest information about the recycling center.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Facility Representative Updates Information",
+          "story": "As a recycling facility representative, I want to be able to update my information and the type of material I accept, so that I can avoid any miscommunication with users.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Provide User Support and Engage with Users",
+      "description": "This epic provides users and admins with communication channels to report issues, give feedback, and respond to queries, fostering interaction and improving support for users.",
+      "user_stories": [
+        {
+          "title": "Contact Administrators",
+          "story": "As a user, I want to contact the administrators, so that I can give feedback or ask for help.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Read Feedback and Complaints",
+          "story": "As an admin, I want to be able to read users' feedback and complaints, so that we can add more features and keep improving the service we provide to them.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Reply to User Questions",
+          "story": "As a superuser, I want to reply to user questions, so that I can answer any questions about my recycling center.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Communicate with Facilities",
+          "story": "As an admin, I want to be able to communicate directly with facilities, so that I can keep them updated about features we have on our website.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Facility to Admin Communication",
+          "story": "As a recycling facility, I want to be able to communicate directly with the site admin and convey any issues or concerns I have, so that they fix them.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Ensure a Smooth and Reliable User Experience",
+      "description": "This epic addresses the usability and responsiveness of the system, including providing real-time feedback, accessibility, and ensuring a positive user experience.",
+      "user_stories": [
+        {
+          "title": "Invalid Zip Code Feedback",
+          "story": "As a user, I want to get feedback when I enter an invalid zip code.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Access Site on All Devices",
+          "story": "As a user, I want to be able to access the site and do all the other stuff on all of my electronic devices.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Great UI and UX",
+          "story": "As a user, I want to have a great UI and UX from the sites, so that I have a pleasant experience when navigating through them.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Easy Website Navigation",
+          "story": "As a company, I want to have a website that is easy to use, so that I can upload or delete stuff step by step.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "UI/UX Lessons for Developers",
+          "story": "As a developer, I want to attend some UI/UX lessons, so that I can develop an awesome and beautiful features website.",
+          "acceptance_criteria": []
+        }
+      ]
+    }
+  ]
+}

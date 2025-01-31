@@ -1,0 +1,38 @@
+llm:
+  model: "meta/meta-llama-3-70b-instruct"
+  temperature: 0.01
+  is_chat_model: true
+  api_token: "REPLICATE_API_TOKEN"
+
+embedding:
+  model: "BAAI/bge-small-en-v1.5"
+
+logging:
+  version: 1
+  disable_existing_loggers: False
+  formatters:
+    simple:
+      format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+  handlers:
+    console:
+      class: logging.StreamHandler
+      level: WARNING
+      formatter: simple
+      stream: ext://sys.stdout
+    file:
+      class: logging.FileHandler
+      level: DEBUG
+      formatter: simple
+      filename: app.log
+  root:
+    level: DEBUG
+    handlers: [console, file]
+  loggers:
+    httpx:
+      level: INFO
+      handlers: [ console, file ]
+      propagate: False
+    httpcore:
+      level: INFO
+      handlers: [console, file]
+      propagate: False

@@ -1,0 +1,357 @@
+{
+  "epics": [
+    {
+      "title": "User Account Management",
+      "description": "This epic includes all features related to user account creation, management, and personalization. It ensures that customers can easily sign up, maintain their accounts, and manage their personal information, banking details, and membership options.",
+      "user_stories": [
+        {
+          "title": "Open an Account",
+          "story": "As a new Customer, I want to open an account in the system, so I can start training at Daily Sports.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Personal Information",
+          "story": "As a Customer, I want to add my personal information, so I meet the requirements of the gym for signing up.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Banking Details",
+          "story": "As a Customer, I want to add my banking details, so I can pay for my subscription.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Choose Membership Type",
+          "story": "As a Customer, I want to be able to choose my membership type, so I can pay according to my wishes.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Extend Subscription",
+          "story": "As a Customer, I want to be able to extend my subscription for Daily Sports, so I can continue working out.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Check Subscription Duration",
+          "story": "As a Customer, I want to know how long my subscription lasts, so I know when I need to extend it.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Reuse Previous Information",
+          "story": "As a Returning Customer, I want to be able to use my previous information, so that sign-up is easier.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Unsubscribe",
+          "story": "As a Customer, I want to be able to unsubscribe.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Reset Password",
+          "story": "As a Customer, I want to be able to reset my password.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Change Personal Details",
+          "story": "As a Customer, I want to be able to change my personal details.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Update Payment Information",
+          "story": "As a Customer, I want to be able to update my payment information.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Membership Overview",
+          "story": "As a Customer, I want to see information about my membership.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Personal Information",
+          "story": "As a Customer, I want to see an overview of my personal information.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Check-in Method",
+          "story": "As a Customer, I want to have a method by which I can check-in.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Family Membership Management",
+      "description": "This epic focuses on features that allow customers with family memberships to manage their accounts effectively. It provides options for adding or removing family members and tracking usage.",
+      "user_stories": [
+        {
+          "title": "View Family Members",
+          "story": "As a Customer with a Family Membership, I want to see who is using my membership.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Family Member",
+          "story": "As a Customer with a Family Membership, I want to add a person to my membership, so that I can utilize it effectively.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Remove Family Member",
+          "story": "As a Customer with a Family Membership, I want to remove a person from my membership.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Lesson and Training Management",
+      "description": "This epic provides customers and trainers with tools to manage lessons, bookings, and personal training sessions. It allows users to see available lessons, book or cancel them, and track their training history.",
+      "user_stories": [
+        {
+          "title": "View Available Lessons",
+          "story": "As a Customer, I want to see an overview of all available lessons, so that I can choose which one to book.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Future Bookings",
+          "story": "As a Customer, I want to see what future lessons I have booked, so that I can manage my time.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Past Bookings",
+          "story": "As a Customer, I want to see a record of previous lessons I have booked, so I can track my progress.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Call to Book a Lesson",
+          "story": "As a Customer, I want to be able to call the gym to book a lesson, so that I don’t have to use the application.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Call to Cancel a Lesson",
+          "story": "As a Customer, I want to be able to call the gym to cancel a lesson, so that I don’t have to use the application.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Call to Book Personal Training",
+          "story": "As a Customer, I want to call the gym to book a personal training session, so that I don’t have to use the application.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Call to Cancel Personal Training",
+          "story": "As a Customer, I want to call the gym to cancel a personal training session, so that I don’t have to use the application.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Book Free Practice Area",
+          "story": "As a Customer, I want to be able to book a spot for the free practice area, so that I know it will have capacity for me when I arrive.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Check Spots Booked",
+          "story": "As a Customer, I want to see how many spots have been booked for a given timeslot.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Trainer Lesson Management",
+          "story": "As a Trainer, I want to see which rooms are free at a given timeslot, so I can organize a lesson.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Lesson to Schedule",
+          "story": "As a Trainer, I want to add a lesson to the schedule, so customers would be able to sign up.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Lesson Time",
+          "story": "As a Trainer, I want to set the time of the lesson, so the customers know when they should be at Daily Sports.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Lesson Description",
+          "story": "As a Trainer, I want to set the description of the lesson, so the customers know what to expect from it.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Lesson Room",
+          "story": "As a Trainer, I want to set the room of the lesson, so the customers know where to go.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Lesson Type",
+          "story": "As a Trainer, I want to set the type of lesson.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Maximum Participants",
+          "story": "As a Trainer, I want to set the maximum number of people allowed in the lesson, so that we don’t over-crowd a room.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Trainer Schedule",
+          "story": "As a Trainer, I want to be able to see what my schedule is.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Restrict Lesson Editing",
+          "story": "As a Trainer, I want to be the only Trainer who can edit my lessons.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit Lesson Time",
+          "story": "As a Trainer, I want to edit the time of the lesson, so a more suitable time can be set.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Change Lesson Room",
+          "story": "As a Trainer, I want to change the room of the lesson, so I can move the lesson to another place.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit Lesson Description",
+          "story": "As a Trainer, I want to edit the description of the lesson, so the customers know what to expect.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit Maximum Participants",
+          "story": "As a Trainer, I want to edit the maximum number of people allowed in the lesson, so it is correct for this lesson.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin Lesson Editing",
+          "story": "As an Admin, I want to be able to edit any lesson.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Trainer Cancel Lesson",
+          "story": "As a Trainer, I want to cancel a lesson, so customers won’t show up in an empty room when I can’t make it.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin Cancel Lesson",
+          "story": "As an Admin, I want to cancel a lesson, so customers won’t show up in an empty room when the Trainer can’t make it.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Notification Management",
+      "description": "This epic focuses on the notifications system, ensuring that customers receive timely updates regarding their bookings, cancellations, and other important information. It allows users to customize their notification preferences.",
+      "user_stories": [
+        {
+          "title": "Receive Booking Cancellation Notification",
+          "story": "As a Customer, I want to receive a notification when my booked lesson is canceled, so I won’t go to Daily Sports for a canceled lesson.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Notify No-Show",
+          "story": "As a Customer, I want to be notified if I didn’t go to a session I had booked, so that I know it happened.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin No-Show Notification",
+          "story": "As an Admin, I want to see if a customer did not show up for a session they had booked, so that I can take further action.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Track No-Show Count",
+          "story": "As an Admin, I want to see how many times a customer did not show up for a session.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Issue Fines for No-Shows",
+          "story": "As an Admin, I want to have the system issue a fine if a customer does not show up more than 2 times, so that we can deter no-shows.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Incremental Fines for Repeat Offenders",
+          "story": "As an Admin, I want to have the fines for repeat offenders increase exponentially for each subsequent offense, so we can deter no-shows.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Choose Notification Preferences",
+          "story": "As a Customer, I want to receive notifications by the method which I prefer, so that I am able to see them and not be annoyed by them.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Receive Email Notifications",
+          "story": "As a Customer, I want to receive notifications by email.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Receive Push Notifications",
+          "story": "As a Customer, I want to receive push notifications from the system.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Choose Notification Types",
+          "story": "As a Customer, I want to choose what to receive notifications for.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Confirm Booking Cancellation Awareness",
+          "story": "As a Customer, I want to confirm that I am aware that my booking has been canceled.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Admin Aware of Cancellations",
+          "story": "As an Admin, I want to know which customers are aware that their booking has been canceled, so that I can call them if they aren’t.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Admin and Trainer Management",
+      "description": "This epic encompasses the administrative functionalities for managing trainers, admins, and the system as a whole. It allows for the addition and removal of trainers and admins, ensuring proper access control.",
+      "user_stories": [
+        {
+          "title": "Add New Trainer",
+          "story": "As an Admin, I want to add a new trainer to the system, so the new trainer can start working.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add New Admin",
+          "story": "As an Admin, I want to add a new admin to the system, so the new admin can start working.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Remove Trainer",
+          "story": "As an Admin, I want to remove a trainer from the system, so they cannot access the system anymore.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "User Login and Access",
+      "description": "This epic manages user login functionalities, ensuring customers and trainers can access the system securely and perform necessary actions.",
+      "user_stories": [
+        {
+          "title": "User Login",
+          "story": "As a User, I want to log in to the system, so that I can use the system.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Trainer Progress Tracking",
+      "description": "This epic focuses on trainers' ability to view their schedules and track their past and future training sessions.",
+      "user_stories": [
+        {
+          "title": "View Trainer Schedule",
+          "story": "As a Trainer, I want to see information about my past and future training sessions.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Admin Subscription Checks",
+      "description": "This epic involves administrative checks on customer subscriptions and bookings during check-in.",
+      "user_stories": [
+        {
+          "title": "Check Subscription Status",
+          "story": "As an Admin, I want to see if the Customer who is checking in has a subscription.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Check Booking Status",
+          "story": "As an Admin, I want to see if the Customer who is checking in has any bookings.",
+          "acceptance_criteria": []
+        }
+      ]
+    }
+  ]
+}

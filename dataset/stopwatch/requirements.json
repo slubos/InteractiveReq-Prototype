@@ -1,0 +1,82 @@
+{
+  "epics": [
+    {
+      "title": "Basic Stopwatch Controls",
+      "description": "Provide users with fundamental controls such as start, pause, and reset to measure time intervals easily. This feature is crucial for users to manage time accurately in different activities.",
+      "user_stories": [
+        {
+          "title": "Start Stopwatch",
+          "story": "As a user, I want to start the stopwatch so that I can begin measuring a time interval.",
+          "acceptance_criteria": [
+            "The app provides a start button that initiates time measurement.",
+            "The start button changes state once the stopwatch is running."
+          ]
+        },
+        {
+          "title": "Pause Stopwatch",
+          "story": "As a user, I want to pause the stopwatch so that I can stop timing temporarily without resetting the current time.",
+          "acceptance_criteria": [
+            "The app provides a pause button that stops the time measurement while keeping the elapsed time visible."
+          ]
+        },
+        {
+          "title": "Reset Stopwatch",
+          "story": "As a user, I want to reset the stopwatch so that I can clear the current time and start again.",
+          "acceptance_criteria": [
+            "The app provides a reset button that sets the elapsed time back to zero."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Display Elapsed Time",
+      "description": "Display the total time elapsed in real-time, so users can monitor the duration of their activity. This feature helps users keep track of their progress effectively.",
+      "user_stories": [
+        {
+          "title": "Show Elapsed Time",
+          "story": "As a user, I want to see the total time elapsed so that I can monitor the progress of my activity.",
+          "acceptance_criteria": [
+            "The elapsed time is displayed prominently on the screen.",
+            "The displayed time updates in real-time as the stopwatch runs."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "Lap and Split Time Tracking",
+      "description": "Allow users to record lap and split times without interrupting the stopwatch. This feature enables users to track intermediate intervals during ongoing activities, such as laps in a race.",
+      "user_stories": [
+        {
+          "title": "Record Lap Times",
+          "story": "As a user, I want to record lap times so that I can track multiple intervals during an activity.",
+          "acceptance_criteria": [
+            "The app provides a lap button that records the current elapsed time without stopping the stopwatch.",
+            "Lap times are displayed in a list for the user to review."
+          ]
+        },
+        {
+          "title": "Record Split Times",
+          "story": "As a user, I want to record split times so that I can measure specific segments within a larger timing session.",
+          "acceptance_criteria": [
+            "The app provides a split button that records the current elapsed time.",
+            "Split times are shown along with timestamps for easy analysis."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "User-Friendly Interface",
+      "description": "Design a clean and intuitive interface to ensure users can easily operate the stopwatch. This is important to create an accessible and pleasant user experience.",
+      "user_stories": [
+        {
+          "title": "Simple and Clean Layout",
+          "story": "As a user, I want the interface to be simple and easy to understand so that I can operate the stopwatch without any confusion.",
+          "acceptance_criteria": [
+            "The app has a minimal design with only necessary buttons (start, pause, reset, lap, split).",
+            "Buttons are clearly labeled and large enough for easy interaction."
+          ]
+        }
+      ]
+    }
+  ]
+}

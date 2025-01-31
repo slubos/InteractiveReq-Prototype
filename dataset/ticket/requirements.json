@@ -1,0 +1,286 @@
+{
+  "epics": [
+    {
+      "title": "User Account Management",
+      "description": "This epic includes features for users to manage their accounts, including personal information, preferences, and payment details. It aims to streamline the ticket purchasing process and enhance user experience by allowing users to save information for future transactions.",
+      "user_stories": [
+        {
+          "title": "Save Personal Information",
+          "story": "As a user, I want to save my personal information (i.e., name, date of birth, email, address, and preferences) so that I don't have to repeat this process with every ticket purchase.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Save Payment Details",
+          "story": "As a user, I want to save my payment details so that I don't have to fill these details in every time.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit Personal Information",
+          "story": "As a user, I want to be able to edit my personal information (e.g., address) so that I can update it when needed.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Change Password",
+          "story": "As a user, I want to be able to change my password so that I can keep my account information safe.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Ticket Order History",
+          "story": "As a user, I want to see a history of previous ticket orders, so that I can easily retrieve tickets and additional information when needed.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Overview of Upcoming Events",
+          "story": "As a user, I want to see an overview of upcoming events for which I bought a ticket, so that I can easily find this information when needed.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Favorite Artists and Events",
+          "story": "As a user, I want to find my list of favorited artists and events under my profile, so that I can easily find them back.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Fill Out Preferences Survey",
+          "story": "As a user, I want to fill out a short survey about my preferences in (music) genre and event types so that I can receive personalized content.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit Preferences",
+          "story": "As a user, I want to see and edit my preferences so that my information does not become outdated.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "See Personalized Content",
+          "story": "As a user, I want to see personalized content (e.g., recommended events) based on my user profile to quickly see events I am interested in.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Guest Ticket Purchasing Experience",
+      "description": "This epic focuses on providing a seamless purchasing experience for guests and single-time users. It includes features that minimize the amount of personal information required, allowing visitors to purchase tickets quickly and easily.",
+      "user_stories": [
+        {
+          "title": "Buy Ticket as Guest",
+          "story": "As a (single-time) visitor, I want to buy a ticket as a guest, so that the overall purchase progress is shorter.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Minimal Guest Information Required",
+          "story": "As a guest (i.e., single-time user), I want to only fill in my name and email when buying a ticket so that the process is faster than creating an account.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Easily Purchase Tickets",
+          "story": "As a visitor, I want to purchase a ticket in an easy and short process, so that I can avoid any complications during the process.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Event Information",
+          "story": "As a visitor, I want to read about the event (e.g., location, date, and artist information), so that I can decide whether to buy a ticket.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Direct Ticket Purchase from Event Page",
+          "story": "As a visitor, I want to be able to buy tickets directly from the event page, so that the purchasing process is shortened.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View List of Events with Available Tickets",
+          "story": "As a visitor, I want to see events with available tickets so that I can buy the tickets.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Tickets to Shopping Cart",
+          "story": "As a visitor, I want to add tickets to the shopping cart, so that I can buy tickets.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Order Summary Confirmation",
+          "story": "As a visitor, I want to see my order summary, so that I can make sure that I buy the correct ticket(s).",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Multiple Ticket Purchase",
+          "story": "As a visitor, I want to be able to buy multiple tickets for one event in one purchase so that I can buy tickets for me and whomever I go with.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Event Discovery and Search",
+      "description": "This epic focuses on features that enable visitors to search for events efficiently, providing filters and sorting options to enhance the event discovery process.",
+      "user_stories": [
+        {
+          "title": "Get Search Results for Events",
+          "story": "As a visitor, I want to get a list of events as search results, so that I can select the desired event.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Non-case Sensitive Search Engine",
+          "story": "As a visitor, I want to have the search engine non-case sensitive and punctuation sensitive so that I can still find the desired event when I misspell the name.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Sort Search Results by Date",
+          "story": "As a visitor, I want to be able to sort my search results by date so that I can see which events are up first.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Filter Search by Price",
+          "story": "As a visitor, I want to be able to filter my search by price so that I can only see tickets within my price range.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Filter Search by Venue",
+          "story": "As a visitor, I want to be able to filter my search results by venue, so that I can easily find the event I want to go to.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Filter Events by Genre",
+          "story": "As a visitor, I want to be able to filter a list of events by genre, so that I don't have to see events I'm not interested in.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "See Available Seats",
+          "story": "As a visitor, I want to see available seats at the event, so that I can decide which one to buy.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Map View of Available Seats",
+          "story": "As a visitor, I want to see the available seats in a map of the venue so that I can pick the right seating place for during the event.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "See Ticket Types",
+          "story": "As a visitor, I want to see the types of tickets (e.g., normal, premium, gold tickets) once I select the event, so that I can choose which type I want to buy.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Landing on Event Page from Search Result",
+          "story": "As a visitor, I want to be able to land on the event page when clicking on a search result so that I can visit the page I want.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Ticket Reselling Features",
+      "description": "This epic includes features to facilitate ticket reselling for users, allowing them to sell their tickets directly on the platform while ensuring security and trust for both resellers and buyers.",
+      "user_stories": [
+        {
+          "title": "Sell Tickets Directly from Event Page",
+          "story": "As a reseller, I want to be able to sell my tickets directly from the event page, so that the reselling process is shortened.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Upload Digital Ticket",
+          "story": "As a reseller, I can upload my digital ticket from my local device, so that I can offer it to other users.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Set Ticket Selling Price",
+          "story": "As a reseller, I can set any price above 5 cents for the ticket I'm selling.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Description to Ticket",
+          "story": "As a reseller, I can add a short description of the event so that the other (buying) users know what type of ticket, and for which event, I'm selling.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Save Bank Account in Profile",
+          "story": "As a reseller, I want to save my bank account (IBAN number) in my user profile, so that I can receive the money for the tickets directly to my bank account.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Artist Event Promotion",
+      "description": "This epic focuses on providing artists with features to promote their events effectively. It includes tools for sharing information and links to their music, social media, and personal websites.",
+      "user_stories": [
+        {
+          "title": "View Event Information",
+          "story": "As an artist, I want to find information about my events on the designated event page so that visitors can read about my event and consider buying tickets.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Link to Artist Website",
+          "story": "As an artist, I want to have a link to my website on the event page so that fans can find out more about me.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Link to Social Media",
+          "story": "As an artist, I want to have a link to my social media on the event page, so that fans can follow me for regular updates.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Artist Description and Event Info",
+          "story": "As an artist, I want to have a description of myself and my upcoming event (or tour) to be shown on my event page so that visitors can inform themselves about my show.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Link to Music Platforms",
+          "story": "As an artist, I want to have a link to music platforms (e.g., YouTube, Spotify, Apple Music), so that visitors buying tickets for my show can stream my music.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Platform Trust and Security",
+      "description": "This epic includes features to ensure the trustworthiness and security of the ticketing and reselling platform, protecting users from fraud and ensuring reliable transactions.",
+      "user_stories": [
+        {
+          "title": "Validate Tickets",
+          "story": "As a company, I want to validate tickets, so that I can ensure visitors a trustworthy platform.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Service Fee Deduction",
+          "story": "As a company, I want to deduct a service fee of 3% from the total price set by the reseller so that the reselling platform is a financially beneficial addition to the business.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Minimum Price for Reselling Tickets",
+          "story": "As a company, I want to have the minimum price for reselling a ticket at 5 cents so that I can receive a service fee.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Resellers Sell Digital Tickets Only",
+          "story": "As a company, I want to have resellers sell only digital tickets, so that the tickets can be validated automatically.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Fraud Prevention",
+          "story": "As a company, I want to avoid fraudulent behavior on the reselling platform, so that visitors gain trust in the platform.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Protect Users from Online Fraud",
+          "story": "As a company, I want to protect users from online fraud, so that I can avoid the failure of the reselling platform.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Company User Experience Goals",
+      "description": "This epic encompasses the overall objectives for the user experience on the platform, focusing on intuitiveness and efficiency to attract and retain visitors.",
+      "user_stories": [
+        {
+          "title": "Intuitive Buying Process",
+          "story": "As a company, I want to have the overall buying process as intuitive and quick as possible so that we can attract (and retain) visitors to use our platform.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Stay Updated on Popular Events",
+          "story": "As a visitor, I want to see popular, upcoming events so that I can stay updated about interesting events.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Click from Homepage to Event Page",
+          "story": "As a visitor, I want to click on an event shown on the homepage and be directed to the event page, so that I don't have to search for it.",
+          "acceptance_criteria": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "epics": [
+    {
+      "title": "Basic Calculation Functionality",
+      "description": "Implement basic arithmetic operations such as addition, subtraction, multiplication, and division. This feature is essential for users to perform simple calculations conveniently on their smartphones.",
+      "user_stories": [
+        {
+          "title": "Perform Addition",
+          "story": "As a user, I want to add two numbers so that I can quickly calculate their sum.",
+          "acceptance_criteria": [
+            "The calculator allows the user to input two numbers.",
+            "The result of the addition is displayed correctly."
+          ]
+        },
+        {
+          "title": "Perform Subtraction",
+          "story": "As a user, I want to subtract one number from another so that I can find the difference.",
+          "acceptance_criteria": [
+            "The calculator allows the user to input two numbers.",
+            "The result of the subtraction is displayed correctly."
+          ]
+        },
+        {
+          "title": "Perform Multiplication",
+          "story": "As a user, I want to multiply two numbers so that I can obtain their product.",
+          "acceptance_criteria": [
+            "The calculator allows the user to input two numbers.",
+            "The result of the multiplication is displayed correctly."
+          ]
+        },
+        {
+          "title": "Perform Division",
+          "story": "As a user, I want to divide one number by another so that I can calculate the quotient.",
+          "acceptance_criteria": [
+            "The calculator allows the user to input two numbers.",
+            "The result of the division is displayed correctly, and division by zero is handled appropriately."
+          ]
+        }
+      ]
+    },
+    {
+      "title": "User Interface Design",
+      "description": "Create a simple and intuitive user interface that allows users to easily input numbers and select operations. A user-friendly interface is vital for ensuring a positive user experience.",
+      "user_stories": [
+        {
+          "title": "Input Numbers",
+          "story": "As a user, I want to easily input numbers so that I can perform calculations without frustration.",
+          "acceptance_criteria": [
+            "The app includes a numeric keypad for input.",
+            "The numeric keypad is responsive and allows for easy number entry."
+          ]
+        },
+        {
+          "title": "Select Operations",
+          "story": "As a user, I want to select basic arithmetic operations so that I can perform calculations effortlessly.",
+          "acceptance_criteria": [
+            "The app displays clearly labeled buttons for each arithmetic operation.",
+            "Users can tap the operation button after entering the numbers to perform the calculation."
+          ]
+        },
+        {
+          "title": "Display Results",
+          "story": "As a user, I want to see the calculation results clearly so that I can verify my answers.",
+          "acceptance_criteria": [
+            "The result of the calculation is displayed prominently on the screen.",
+            "The display updates immediately after the user performs a calculation."
+          ]
+        }
+      ]
+    }
+  ]
+}

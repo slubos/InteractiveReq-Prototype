@@ -1,0 +1,279 @@
+{
+  "epics": [
+    {
+      "title": "Game Creation and Management",
+      "description": "This epic covers the functionalities required for moderators to create, manage, and modify games. It allows moderators to start new games, manage items to be estimated, and invite participants effectively.",
+      "user_stories": [
+        {
+          "title": "Create a New Game",
+          "story": "As a moderator, I want to create a new game by entering a name and an optional description, so that I can start inviting estimators.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Invite Estimators",
+          "story": "As a moderator, I want to invite estimators by giving them a URL where they can access the game, so that we can start the game.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Add Item for Estimation",
+          "story": "As a moderator, I want to add an item to the list of items to be estimated, so that we can be flexible and accommodate situations where we think of a new story while playing.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Edit Item for Estimation",
+          "story": "As a moderator, I want to edit an item in the list of items to be estimated, so that I can make it better reflect the team's understanding of the item.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Delete Item from Estimation",
+          "story": "As a moderator, I want to delete an item from the list of items to be estimated, so that we can remove it and not estimate it.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View All Items for Estimation",
+          "story": "As a moderator, I want to see all items we try to estimate this session, so that I can answer questions about the current story such as 'does this include ___'.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Select Item for Estimation",
+          "story": "As a moderator, I want to select an item to be estimated or re-estimated, so that the team sees that item and can estimate it.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Show Estimates Immediately",
+          "story": "As a moderator, I want to show all estimates immediately, so that I can decide to show the estimates that have been given even though not all estimators have given their estimate.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Accept Average Estimate",
+          "story": "As a moderator, I want to accept the average of all estimates, so that we can move on to the next item when we agree.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Automatically Fill Estimate Field",
+          "story": "As a moderator, I want to have the 'estimate' field filled in automatically if all estimators show the same card, so that I can accept it more quickly.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Enter Agreed-Upon Estimate",
+          "story": "As a moderator, I want to enter the agreed-upon estimate, so that we can move on to the next item when we agree.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Re-estimate Previous Story",
+          "story": "As a moderator, I want to estimate a story we estimated earlier in the session again, so that we can give a new estimate if we feel different about the story after estimating other related stories.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Import Stories from Spreadsheet",
+          "story": "As a moderator, I want to import stories from a spreadsheet, so that I don't have to copy and paste each individual story.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Copy/Paste Stories from Spreadsheet",
+          "story": "As a moderator, I want to copy/paste stories from a spreadsheet, so that I can get started more quickly.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Browse Previous Games",
+          "story": "As a moderator, I want to browse through previous games, so that I can find the previous game I'm looking for.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Game Transcript",
+          "story": "As a moderator, I want to view a transcript of a game, so that I can see the stories and estimates.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Export Game Transcript as HTML",
+          "story": "As a moderator, I want to export a transcript of a game as an HTML file, so that I can save the stories and estimates locally.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Export Game Transcript as CSV",
+          "story": "As a moderator, I want to export a transcript of a game as a CSV file, so that I can further process the stories and estimates.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Delete a Game",
+          "story": "As a moderator, I want to delete a game, so that stories and estimates for this game are no longer stored.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Account Management",
+      "description": "This epic provides functionalities related to user account management, allowing moderators to create, log in, modify, and delete their accounts securely.",
+      "user_stories": [
+        {
+          "title": "Create an Account",
+          "story": "As a moderator, I want to create an account for the application by entering my name, email address, a password, and a username, so that I can start using the application.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Log In to Account",
+          "story": "As a moderator, I want to log in using my account name and password, so that I can start using the application.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Change Account Details",
+          "story": "As a moderator, I want to change my account details, so that I can keep my account details up-to-date.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Delete My Account",
+          "story": "As a moderator, I want to delete my account, so that account information and games are no longer stored.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Get Password Reminder",
+          "story": "As a moderator, I want to get a password reminder by email, so that I can get back to using the application when I've forgotten my password.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Time and Estimation Settings",
+      "description": "This epic enables moderators to manage time settings and estimation configurations to suit the needs of their teams during estimation sessions.",
+      "user_stories": [
+        {
+          "title": "View Local Timezone",
+          "story": "As a moderator, I want to see dates and times in my local timezone, so that I don't have to do timezone conversion myself.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Select Estimation Scale",
+          "story": "As a moderator, I want to select whether to have the team estimate with {0, 1/2, 1, 2, 3, 5, 8, etc.} or {0, 1, 2, 4, 8, 16, 32, etc.}, so that the team can use either the modified Fibonacci sequence or powers of 2.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Invite Up to 15 Estimators",
+          "story": "As a moderator, I want to invite up to 15 estimators, so that we can play with large but not immense teams.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Estimator Participation",
+      "description": "This epic encompasses functionalities for estimators to participate in games, including submitting estimates and viewing relevant information about the items being estimated.",
+      "user_stories": [
+        {
+          "title": "Join a Game",
+          "story": "As an estimator, I want to join a game by entering my name on the page I received the URL for, so that I can participate.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Item Being Estimated",
+          "story": "As an estimator, I want to see the item we’re estimating, so that I know what I’m giving an estimate for.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "See All Items for Estimation",
+          "story": "As an estimator, I want to see all items we will try to estimate this session, so that I have a feel for the sizes of the various items.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "See Who Gave Estimates",
+          "story": "As a participant, I want to see who gave what estimates during the current round, so that I know this when we’re discussing the estimates.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "See Estimate Notifications",
+          "story": "As a participant, I want to immediately see that an estimate has been given by a specific estimator, so that I know who has already given an estimate and who we’re still waiting for.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "View Prior Estimates",
+          "story": "As a participant, I want to be able to see each estimator's prior estimates for the story being estimated, so that I can see how his or her opinion has changed so I can ask questions.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Change Estimate Until Last Card Selected",
+          "story": "As a participant, I want to change my estimate as long as the draw has not been completed, so that I can change my mind.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Change Estimate Up Until Last Person Selects",
+          "story": "As a participant, I want to be able to change my estimate up until the last person selects a card and all are shown, so that I can change my mind based on information I hear.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Start a Countdown Timer",
+          "story": "As a participant, I want to be able to start a two-minute countdown timer that all participants can see, so that I can limit the time spent discussing the estimates when I think we’ve talked long enough.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Reset Timer After Estimate",
+          "story": "As a participant, I want to have the two-minute timer reset itself as soon as we all play an estimate, so that it's ready for use on the next round.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Scroll Through Previous Estimates",
+          "story": "As a participant, I want to scroll back through the stories and estimates from prior rounds, so that I can use this information when I estimate the item of the current round.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Display Thumbnail Photo",
+          "story": "As a participant, I want to have a small thumbnail photo displayed near where my cards are played, so that the game is more personal because I see who I'm estimating with.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Keep Card Order Consistent",
+          "story": "As a participant, I want to always have the cards in the same order across multiple draws, so that it's easy to compare estimates.",
+          "acceptance_criteria": []
+        }
+      ]
+    },
+    {
+      "title": "Development Standards",
+      "description": "This epic focuses on development standards and practices to ensure that the application is user-friendly, accessible, and performant.",
+      "user_stories": [
+        {
+          "title": "Compliance with XHTML and CSS Standards",
+          "story": "As a developer, I want to have written a site which is compliant with XHTML and CSS standards, so that as many people as possible can access the site and view it as intended.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Create Database Indexes",
+          "story": "As a developer, I want to have created database indexes, so that the queries run as fast as possible.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Functionality Across Browsers",
+          "story": "As a developer, I want to have the application function correctly in Internet Explorer 6 and 7, Firefox 1.5 and 2, and Safari 2, so that as many people as possible can fully use the application.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "W3C Accessibility Compliance",
+          "story": "As a developer, I want to have the site comply with the W3C accessibility guidelines where possible, so that people with accessibility issues can use the application.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Fast Application Response",
+          "story": "As a user, I want to have the application respond quickly to my actions, so that I don't get bored.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Unicode Support",
+          "story": "As a user, I want to be able to use Unicode, so that I can use any language I like.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Sensible and Predictable URLs",
+          "story": "As a user, I want to see sensible and predictable URLs, so that the application feels logical and transparent.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "User-Friendly Error Pages",
+          "story": "As a user, I want to have nice error pages when something goes wrong, so that I can trust the system and its developers.",
+          "acceptance_criteria": []
+        },
+        {
+          "title": "Non-Identifiable Data Storage",
+          "story": "As a Researcher, I want results to be stored in a non-identifiable way, so that I can study the data to see things like whether estimates converged around the first opinion given by 'estimator A'.",
+          "acceptance_criteria": []
+        }
+      ]
+    }
+  ]
+}
